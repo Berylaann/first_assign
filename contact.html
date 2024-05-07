@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="creating a contact form with HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Beryl A Ann" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+   <section>
+    <br>
+    <form>
+        <div>
+        <label for="fullname">What is your name?</label>
+        <br>
+        <input type="text" id="fullname" class="for-element" name="fullname"
+        placeholder="Type your full name" required 
+        style="width: 100%;
+        box-sizing: 
+        border-box;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;">
+        </div>
+        <br>
+        <div>
+        <label for="emailaddress">What is your email address?</label>
+        <input type="text" id="emailaddress" class="form-element" name="emailaddress"
+        placeholder="Type your email" required>
+        </div>
+        <br>
+        <div>
+        <label for="message">Message</label>
+        <br>
+        <textarea id="message" class="form-element" name="message"
+        placeholder="Type your message..." rows="5"></textarea>
+        </div>
+        <!--submit button using an input element-->
+        <!--<input type="submit" value="submit"/>-->
+    <br>
+    <button type="submit">Submit</button>
+    </form>
+   </section>     
+    </main> 
+    <footer>
+        <p>&copy; Copyright 2024</p>
+    </footer>
+</body>
+</html>
